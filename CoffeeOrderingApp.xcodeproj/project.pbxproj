@@ -11,6 +11,7 @@
 		1FE88EF329E0780100339750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE88EF229E0780100339750 /* ContentView.swift */; };
 		1FE88EF529E0780500339750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE88EF429E0780500339750 /* Assets.xcassets */; };
 		1FE88EF829E0780500339750 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE88EF729E0780500339750 /* Preview Assets.xcassets */; };
+		1FE88F0029E0784700339750 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE88EFF29E0784700339750 /* Coffee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1FE88EF229E0780100339750 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FE88EF429E0780500339750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE88EF729E0780500339750 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FE88EFF29E0784700339750 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1FE88EEF29E0780100339750 /* CoffeeOrderingApp */ = {
 			isa = PBXGroup;
 			children = (
+				1FE88EFE29E0783500339750 /* Models */,
 				1FE88EF029E0780100339750 /* CoffeeOrderingAppApp.swift */,
 				1FE88EF229E0780100339750 /* ContentView.swift */,
 				1FE88EF429E0780500339750 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				1FE88EF729E0780500339750 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FE88EFE29E0783500339750 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FE88EFF29E0784700339750 /* Coffee.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				1FE88EF329E0780100339750 /* ContentView.swift in Sources */,
 				1FE88EF129E0780100339750 /* CoffeeOrderingAppApp.swift in Sources */,
+				1FE88F0029E0784700339750 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
