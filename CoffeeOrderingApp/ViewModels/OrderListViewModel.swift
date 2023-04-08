@@ -10,6 +10,10 @@ import Foundation
 class OrderListViewModel: ObservableObject {
     @Published var orders = [OrderViewModel]()
     
+    init() {
+        fetchOrders()
+    }
+    
     func fetchOrders() {
         Webservice().getAllOrders { orders in
             guard let orders = orders else { return }

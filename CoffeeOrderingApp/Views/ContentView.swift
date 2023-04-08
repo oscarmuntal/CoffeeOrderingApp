@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject private var orderListVM = OrderListViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        OrderListView(orders: orderListVM.orders)
     }
 }
 

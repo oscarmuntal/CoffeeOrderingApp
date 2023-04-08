@@ -18,6 +18,7 @@ struct OrderListView: View {
         List {
             ForEach(orders, id: \.id) { order in
                 HStack {
+                    let _ = print(order.coffeeName)
                     Image(order.coffeeName)
                         .resizable()
                         .frame(width: 100, height: 100)
