@@ -15,6 +15,7 @@
 		1FE88F0229E095DB00339750 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE88F0129E095DB00339750 /* Order.swift */; };
 		1FE88F0529E0967E00339750 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE88F0429E0967E00339750 /* Webservice.swift */; };
 		1FE88F0829E0996A00339750 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE88F0729E0996A00339750 /* OrderListViewModel.swift */; };
+		1FE88F0B29E17E4300339750 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE88F0A29E17E4300339750 /* OrderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1FE88F0129E095DB00339750 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		1FE88F0429E0967E00339750 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		1FE88F0729E0996A00339750 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		1FE88F0A29E17E4300339750 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				1FE88EF029E0780100339750 /* CoffeeOrderingAppApp.swift */,
-				1FE88EF229E0780100339750 /* ContentView.swift */,
+				1FE88F0929E17E2500339750 /* Views */,
 				1FE88F0329E0966700339750 /* Services */,
 				1FE88EFE29E0783500339750 /* Models */,
 				1FE88F0629E0995300339750 /* ViewModels */,
@@ -101,6 +103,15 @@
 				1FE88F0729E0996A00339750 /* OrderListViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1FE88F0929E17E2500339750 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FE88EF229E0780100339750 /* ContentView.swift */,
+				1FE88F0A29E17E4300339750 /* OrderListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 				1FE88EF329E0780100339750 /* ContentView.swift in Sources */,
 				1FE88EF129E0780100339750 /* CoffeeOrderingAppApp.swift in Sources */,
 				1FE88F0229E095DB00339750 /* Order.swift in Sources */,
+				1FE88F0B29E17E4300339750 /* OrderListView.swift in Sources */,
 				1FE88F0829E0996A00339750 /* OrderListViewModel.swift in Sources */,
 				1FE88F0529E0967E00339750 /* Webservice.swift in Sources */,
 				1FE88F0029E0784700339750 /* Coffee.swift in Sources */,

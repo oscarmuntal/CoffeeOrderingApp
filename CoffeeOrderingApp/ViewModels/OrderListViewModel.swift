@@ -7,7 +7,7 @@
 
 import Foundation
 
-class OrderListViewModel: ObservableObject {
+class OrderListViewModel: ObservableObject {
     @Published var orders = [OrderViewModel]()
     
     func fetchOrders() {
@@ -40,7 +40,7 @@ class OrderViewModel {
         order.coffeeName
     }
     
-    var total: String {
+    var total: Double {
         order.total
     }
 }
